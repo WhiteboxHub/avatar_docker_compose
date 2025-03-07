@@ -23,16 +23,16 @@ A full-stack project that includes a frontend, backend API, and a local MySQL da
    - Ensure the database volumes are set up correctly.
 
 3. **Configure Database Credentials**
-   - Use the correct database name and password to connect to the local MySQL database/any ==========================================================================================================================================================================================================================================================================================================================================================.
+   - Use the correct database name and password to connect to the local MySQL database/any 
 
 4. **Build and Run the Project using Docker Compose**
    - First, build the containers in detached mode:
      ```bash
-     docker-compose build
+     docker compose build 
      ```
    - Then, bring up the services:
      ```bash
-     docker-compose up -d
+     docker compose up -d
      ```
 
 5. **Access the Application**
