@@ -443,7 +443,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import logo from '../../public/images/ip_logo1.jpg';
 import { HiChevronDown } from 'react-icons/hi';
-import { useAuth } from '../../components/AuthContext';
+import { useAuth } from '../AuthContext';
 
 interface MenuItem {
   name: string;
