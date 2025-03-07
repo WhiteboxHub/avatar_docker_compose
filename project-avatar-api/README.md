@@ -1,21 +1,13 @@
 # Project Avatar API
 
-## Requirements
-
-- Python 3.9 or higher
-- FastAPI
-- MySQL
-- Postman (for testing the API)
-- Docker (for containerization)
-
 ## Setup and Installation
 
 ### Running Locally (Mac & Windows)
 
 #### 1. Clone this repository to your local machine:
 ```bash
-git clone <repository-url>
-cd project-avatar-api
+git clone https://github.com/WhiteboxHub/projects-avatar-fullstack.git
+cd projects-avatar-fullstack/project-avatar-api
 ```
 
 #### 2. Set up a Virtual Environment
@@ -23,12 +15,12 @@ cd project-avatar-api
 - **For Windows:**
   ```powershell
   python -m venv myvenv
-  myvenv\Scripts\activate
+  venv\Scripts\activate
   ```
 
 - **For Mac/Linux:**
   ```bash
-  python3 -m venv myvenv
+  python3 -m venv venv
   source myvenv/bin/activate
   ```
 
