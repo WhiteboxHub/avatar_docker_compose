@@ -23,7 +23,11 @@ A full-stack project that includes a frontend, backend API, and a local MySQL da
    - Ensure the database volumes are set up correctly.
 
 3. **Configure Database Credentials**
-   - Use the correct database name and password to connect to the local MySQL database/any 
+   - Use the correct database name, password, host, and port to connect to the local MySQL database/any 
+   - DB_PASSWORD=strongpassword123
+   - DB_USERNAME=root
+   - DB_NAME=wbl_db
+   - PORT=3306
 
 4. **Build and Run the Project using Docker Compose**
    - First, build the containers in detached mode:
